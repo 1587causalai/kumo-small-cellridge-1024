@@ -14,7 +14,7 @@ The continuation used independent synthetic training tables, 2,048 labeled suppo
 
 The restricted 48-table development evaluation gave 993.2 Elo. On the complete Lite test partitions, our comparison against 93 fully observed public configurations gave 987.5 Elo (86th of 94). The two evaluations use different inference protocols and reference pools. The official leaderboard requires an independent maintainer run.
 
-[TabArena-Lite results and per-task metrics](LITE.md)
+[TabArena-Lite results and per-task metrics](LITE.md) · [Upstream TabArena submission (PR #735)](https://github.com/autogluon/tabarena/pull/735)
 
 ## Source and license
 
