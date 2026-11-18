@@ -4,7 +4,7 @@ This release contains separate classification and regression inference weights f
 
 The [v1.0 release](https://github.com/1587causalai/kumo-small-cellridge-1024/releases/tag/v1.0) contains both safetensors files. [weights.json](weights.json) records their SHA-256 digests, byte sizes, and source checkpoint digests. Both exports were verified tensor by tensor against the source. Use the classification file for binary or multiclass tasks and the regression file for numerical targets. Both the backbone and additional blocks were fine-tuned. The release contains the inference tensors only.
 
-## Development and benchmark exposure
+## Continuation training
 
 The continuation used independent synthetic training tables, 2,048 labeled support rows and 64 query rows per table. Every 16 tables contributed one optimizer update, with a backbone learning rate of 3e-6 and a tail learning rate of 3e-5. The 1,024-table checkpoint is the output of 64 continuation updates, using the original learning rates throughout this lineage. It resumes from the original-rate replay at 512 tables.
 
