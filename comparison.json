@@ -3,23 +3,23 @@
   "reference_snapshot": "DGX2 2026-11-07 published models snapshot, all 51 first splits, observed only",
   "n_test": 346195,
   "n_train_oof": 692339,
-  "candidate_elo": 987.5,
-  "candidate_rank": 86,
+  "candidate_elo": 1196.8,
+  "candidate_rank": 63,
   "kumo_name": "TA-KUMO-TABULAR-SMALL (default)",
-  "kumo_elo": 1838.3,
+  "kumo_elo": 1836.8,
   "kumo_rank": 5,
   "candidate_win_tie_loss_vs_kumo": [
-    2,
+    4,
     0,
-    49
+    47
   ],
   "by_type": {
     "binary": {
       "count": 30,
       "win_tie_loss": [
-        2,
+        4,
         0,
-        28
+        26
       ]
     },
     "multiclass": {
@@ -38,5 +38,8 @@
         13
       ]
     }
-  }
+  },
+  "evaluated_max_context_size": 2048,
+  "submitted_default_max_context_size": 200000,
+  "submitted_default_locally_benchmarked": false
 }

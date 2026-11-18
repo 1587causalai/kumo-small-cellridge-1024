@@ -50,3 +50,5 @@ Each dataset below contributed labeled query rows from the first TabArena outer 
 - taiwanese_bankruptcy_prediction
 - website_phishing
 - wine_quality
+
+We evaluated the 2,048 support cap after the 512-support baseline was seen, based on prior development-panel evidence. The submitted default matches the 200,000-row Kumo Small cap and has no local full Lite run. The new Lite run reuses the same 51 outer test splits.

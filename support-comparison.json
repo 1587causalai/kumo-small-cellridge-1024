@@ -1,0 +1,40 @@
+{
+  "outer_win_tie_loss": [
+    45,
+    2,
+    4
+  ],
+  "oof_win_tie_loss": [
+    44,
+    2,
+    5
+  ],
+  "outer_by_task": {
+    "binary": [
+      26,
+      2,
+      2
+    ],
+    "multiclass": [
+      6,
+      0,
+      2
+    ],
+    "regression": [
+      13,
+      0,
+      0
+    ]
+  },
+  "actual_support_increased": 49,
+  "full_2048": 33,
+  "sum_model_time_sec": {
+    "time_train_s_s512": 364.8425539897289,
+    "time_infer_s_s512": 115.13382164482027,
+    "time_train_s_s2048": 739.2517685018247,
+    "time_infer_s_s2048": 282.4442724431865
+  },
+  "elo_change": 209.3,
+  "rank_s512": 86,
+  "rank_s2048": 63
+}
